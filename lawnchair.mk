@@ -7,4 +7,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     QuickstepSwitcherOverlay \
     Lawnchair \
-    Lawnfeed
+    Lawnfeed \
+    OPIconpackCircle \
+    OPIconpackDefault \
+    OPIconpackHydrogen \
+    OPIconpackMCLaren \
+    OPIconpackOnePlus \
+    OPIconpackOxygen \
+    OPIconpackSquare \
+    OPWeather \
+    OPWidget
+
