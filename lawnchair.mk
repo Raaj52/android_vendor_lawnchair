@@ -11,7 +11,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     QuickstepSwitcherOverlay \
     Lawnchair \
-    Lawnfeed \
+    Lawnfeed
+
+# Minimal Apps
+ifneq ($(TARGET_MINIMAL_APPS),true)
+PRODUCT_PACKAGES += \
     OPIconpackCircle \
     OPIconpackDefault \
     OPIconpackHydrogen \
@@ -21,4 +25,5 @@ PRODUCT_PACKAGES += \
     OPIconpackSquare \
     OPWeather \
     OPWidget
+endif
 
