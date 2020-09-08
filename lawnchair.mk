@@ -13,8 +13,8 @@ PRODUCT_PACKAGES += \
     Lawnchair \
     Lawnfeed
 
-# Minimal Apps
-ifneq ($(TARGET_MINIMAL_APPS),true)
+# OP Apps
+ifeq ($(TARGET_OP_APPS),true)
 PRODUCT_PACKAGES += \
     OPIconpackCircle \
     OPIconpackDefault \
